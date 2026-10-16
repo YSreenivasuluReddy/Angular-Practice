@@ -1,0 +1,20 @@
+<h2>Student Details</h2>
+
+<table border="1">
+  <tr>
+    <th>Student ID</th>
+    <th>Student Name</th>
+    <th>Student Email</th>
+    <th>Actions</th>
+  </tr>
+
+  @for (student of studentdetails; track student.studentid) {
+    <tr>
+      <td>{{ student.studentid }}</td>
+      <td>{{ student.studentname }}</td>
+      <td>{{ student.studentemail }}</td>
+      <td><button [routerLink]="['/update', student.studentid]">Update</button> | <button [routerLink]="['/delete', student.studentid]">Delete</button></td>
+      
+    </tr>
+  }
+</table>
