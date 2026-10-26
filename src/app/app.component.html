@@ -1,7 +1,7 @@
 <h2>Student Details</h2>
 
   @for (student of studentdetails; track student.studentid) {
-    @if (student.studentage > 25) {
+    @if (student.studentage >= 25) {
   <div>
     <p>ID: {{ student.studentid }}</p>
     <p>Name: {{ student.studentname }}</p>
