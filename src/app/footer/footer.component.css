@@ -1,0 +1,13 @@
+footer{
+    position: relative;
+    bottom: 20%;
+}
+hr{
+    border: 2px solid black;
+    width: 95%;
+}
+#pa-grp{
+    text-align: center;
+    font-size: 16px;
+    color: yellow;
+}

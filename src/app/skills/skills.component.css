@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+#body{
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+/* skills */
+
+
+.main-skills,.main-skills1,.main-skills2,.main-skills3,.main-skills4,.main-skills5,.main-skills6{
+    padding: 10px;
+    width: 60%;
+}
+
+.subject,.subject1,.subject2,.subject3,.subject4,.subject5,.subject6{
+    font-size: 17px;
+    font-weight: 500;
+    color: #000;
+    padding-bottom: 15px;
+    display: flex;
+    gap: 5px;
+}
+.progress-bar,.progress-bar1,.progress-bar2,.progress-bar3,.progress-bar4,.progress-bar5,.progress-bar6{
+    position: relative;
+    width: 100%;
+    height: 4px;
+    background-color:#9e9797;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+.progress-bar::after,.progress-bar1::after,.progress-bar2::after,.progress-bar3::after,.progress-bar4::after,.progress-bar5::after,.progress-bar6::after{
+    position: absolute;
+    background-color: rgb(248, 255, 241);
+    content: attr(value);
+    top: -35px;
+    right: 0;
+    font-size: 18px;
+}
+.progress-line{
+    position: absolute;
+    width: 100%;
+    background-color: red;
+    border-radius: 15px;
+    height: 4px;
+}
+.skills{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* 2nd */
+.progress-line1{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(0, 255, 72);
+    border-radius: 15px;
+    height: 4px;
+}
+/* 3rd */
+
+.progress-line2{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(26, 184, 131);
+    border-radius: 15px;
+    height: 4px;
+}
+
+/* 4th */
+
+.progress-line3{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(255, 255, 0);
+    border-radius: 15px;
+    height: 4px;
+}
+
+/* 5th */
+
+.progress-line4{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(75, 52, 52);
+    border-radius: 15px;
+    height: 4px;
+}
+
+/* 6th */
+
+.progress-line5{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(9, 199, 216);
+    border-radius: 15px;
+    height: 4px;
+}
+/* 7th */
+
+.progress-line6{
+    position: absolute;
+    width: 100%;
+    background-color: rgb(47, 11, 100);
+    border-radius: 15px;
+    height: 4px;
+}
