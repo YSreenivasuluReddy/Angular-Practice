@@ -1,0 +1,121 @@
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex-direction: column;
+}
+h1,h3{
+    color: rgb(9, 11, 13);
+}
+h1{
+    text-transform: uppercase;
+}
+h3{
+    font-family: sans-serif;
+}
+.content{
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0px 0px 20px black;
+    width: 500px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+background: transparent;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 5px;
+
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow:0px 0px 30px rgba(0, 0, 0, 0.851);
+    overflow: hidden;
+    
+    
+}
+.parent{
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.button{
+    position: absolute;
+    top:67%;
+    left:47%;
+    translate: transform(-50%,-50%);
+}
+.text{
+    width: 230px;
+    height:100px;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px  rgba(72, 71, 71, 0.821);
+    border-radius: 10px;
+
+}
+.rank{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#rank{
+    font-size: 17px;
+    padding-left: 10px;
+    color:rgb(105, 44, 190);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+.name{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#name{
+    font-size: 17px;
+    padding-left: 10px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+}
+.marks{
+    height: 35px;
+    width: 100%;
+    font-size: 15px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    padding-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#marks{
+    font-size: 17px;
+    padding-left: 10px;
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,34 @@
+<div class="header">
+    <div>
+        <h1 >Y.S.R Institute</h1>
+    </div>
+    <div>
+        <h3>
+            Top Rankers
+        </h3>
+    </div>
+</div>
+<div class="parent">
+    <div *ngFor="let m of res.Result; let x = index">
+        <div *ngIf="x=== res.i" class="content">
+            <div >
+                <img [src]="m.Imgurl" alt="Image">
+            </div>
+            <div class="text">
+                <div class="rank">
+                    <span>Rank :</span><span id="rank">&nbsp;{{m.Rank}}</span>
+                </div>
+                <div class="name">
+                    <span>Name :</span><span id="name">&nbsp;{{m.Name}}</span>
+                </div>
+                <div class="marks">
+                    <span>Marks :</span><span id="marks">&nbsp;{{m.Marks}}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div class="button">
+    <app-child></app-child>
+    </div>

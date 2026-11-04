@@ -1,0 +1,77 @@
+import { Injectable } from '@angular/core';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class EducationService {
+  i=1;
+  res1(){
+    this.i++;
+  }
+   Result=[
+      {
+        
+        Imgurl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwNYecUah7eK73A_UXhT5gqNlzhp_DsZWaJA&s',
+      },
+      {
+        Imgurl:'https://www.avanse.com/viewPagesAssets/img/study-in-india-banner.webp',
+        Rank:'First',
+        Name:'SRUTHI',
+        Marks:580,
+      },
+      {
+        Imgurl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcleiXMlhy7h6oAs0Xi6NUUUtbCg3CppIoXg&s',
+        Rank:'SECOND',
+        Name:'SRUJANA',
+        Marks:576,
+      },
+      {
+        Imgurl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk7NXcWUEKOkFKErBfauL8qarAE8H_a2hzqg&s',
+        Rank:'THIRD',
+        Name:'SREENU',
+        Marks:575,
+      },
+      {
+        Imgurl:'https://www.socialsciencespace.com/wp-content/uploads/student-3500990_960_720_opt.jpg',
+        Rank:'FOURTH',
+        Name:'PRASHANTH',
+        Marks:573,
+      },
+      {
+        Imgurl:'https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/advisor/ca/wp-content/uploads/2024/02/-Canada-Edit-Doc-%F0%9F%9F%A1-what-is-a-student-gic-and-how-does-it-work__Img0-e1708499047337.jpg',
+        Rank:'FIFTH',
+        Name:'SHASHANK',
+        Marks:570,
+      },
+      {
+        Imgurl:'https://t4.ftcdn.net/jpg/05/52/94/89/360_F_552948967_rfWkVCstu3t9ypSnpt2ZePVnuqoi6D6o.jpg',
+        Rank:'SIXTH',
+        Name:'SRIVALLI',
+        Marks:568,
+      },
+      {
+        Imgurl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyzVGogq7jwxgxIbDXYVCrM_EYduE_aTu32g&s',
+        Rank:'SEVENTH',
+        Name:'SAI RUTHU',
+        Marks:567,
+      },
+      {
+        Imgurl:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQECZaQCon-4B4U7L6lEXzHKmkob4FFVGdr6Q&s',
+        Rank:'EIGHTTH',
+        Name:'DEEPAK',
+        Marks:565,
+      },
+      {
+        Imgurl:'https://d2jyir0m79gs60.cloudfront.net/news/images/successful-college-student-lg.png',
+        Rank:'NINTH',
+        Name:'PREETHAM',
+        Marks:562,
+      },
+      {
+        Imgurl:'https://img.freepik.com/premium-photo/happy-young-indian-student_973056-10.jpg',
+        Rank:'TENTH',
+        Name:'SAROJA',
+        Marks:559,
+      }
+    ]
+}
