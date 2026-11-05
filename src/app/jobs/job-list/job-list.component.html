@@ -1,0 +1,44 @@
+<app-sidebar></app-sidebar>
+
+<div class="main-content">
+
+<app-navbar></app-navbar>
+
+<div class="container mt-4">
+
+    <div class="row">
+
+        <div
+        class="col-md-4"
+        *ngFor="let job of jobs">
+
+            <div class="glass-card mb-4">
+
+                <h4>
+                    {{job.jobTitle}}
+                </h4>
+
+                <p>
+                    {{job.location}}
+                </p>
+
+                <p>
+                    {{job.salary}}
+                </p>
+
+                <button
+                class="gradient-btn">
+
+                Apply Now
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>

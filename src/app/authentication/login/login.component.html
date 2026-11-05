@@ -1,0 +1,60 @@
+<div class="container-fluid">
+
+    <div class="row vh-100">
+
+        <div
+        class="col-md-6 d-flex
+        align-items-center
+        justify-content-center">
+
+            <img
+            src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+            width="400">
+
+        </div>
+
+        <div
+        class="col-md-6 d-flex
+        align-items-center">
+
+            <div class="glass-card w-75 mx-auto">
+
+                <h2 class="mb-4">
+                    Welcome Back 👋
+                </h2>
+
+                <div class="mb-3">
+
+                    <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Enter Email"
+                    [(ngModel)]="email">
+
+                </div>
+
+                <div class="mb-3">
+
+                    <input
+                    type="password"
+                    class="form-control"
+                    placeholder="Enter Password"
+                    [(ngModel)]="password">
+
+                </div>
+
+                <button
+                    class="gradient-btn"
+                    (click)="login()">
+
+                    Login
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
